@@ -1,0 +1,51 @@
+
+h2{
+  text-align: center;
+  color:orange;
+}
+div.ex1{
+  text-align: center;
+  color:yellow;
+  font-size: 20px;
+}
+#p{
+  color:maroon;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: Red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-style: oblique;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-decoration: line-through;
+}
+input[type=submit]:hover {
+  background-color: Grey;
+}
+div.ex2 {
+  background-color: lightblue;
+  text-align: center;
+}
+div.ex2:hover{
+  background-color: maroon;
+}
+input:focus {
+  background-color: yellow;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-image:url("062118rigetti0584finalsquare.jpg");
+  }
